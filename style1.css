@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    font-family: 'Poppins', sans-serif;
+font-family: 'Red Rose', cursive;
+
+}
+
+.list{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 60px;
+    color: rgb(253, 196, 54);
+    font-weight: 300;
+   
+}
+
+.button{
+   background-color: rgb(233, 98, 98); 
+    cursor: pointer;
+    color: white;
+    padding: 8px 25px;
+    font-weight: 700;
+    
+    
+}
+.logo{
+    cursor: pointer;
+}
+
+.main-section{
+    margin: 0;
+    text-align: center;
+    margin-top:100px ;
+
+}
+.main-heading{
+    text-align: center;
+    line-height: 100px;
+    color: hsl(42, 100%, 60%);
+    font-weight: 400;
+   font-size: 80px;
+   font-family: 'Dela Gothic One', cursive;
+}
+.button-small{
+   padding: 15px 50px;
+   background-color: rgb(233, 98, 98);
+   cursor: pointer;
+   color: white;
+   font-weight: 700;
+   font-size: medium;
+   margin-top: 45px;
+
+}
+.footer{
+    text-align-last: right;
+
+}
